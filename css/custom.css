@@ -13,3 +13,7 @@
 .cursor-pointer{
     cursor: pointer !important;
 }
+
+section.page-header .page-header-title-border {
+    background-color: #007bff !important;
+}
