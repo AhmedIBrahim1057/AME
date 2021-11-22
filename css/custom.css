@@ -17,3 +17,13 @@
 section.page-header .page-header-title-border {
     background-color: #007bff !important;
 }
+
+.strong-shadow.strong-shadow-top-left:before {
+    content: '' !important;
+    top: -25px !important;
+    left: -25px !important;
+    right: 25px !important;
+    bottom: 25px !important;
+    background: #494b4e !important;
+    z-index: -1 !important;
+}
