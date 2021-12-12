@@ -6,10 +6,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Projects | AME</title>	
+		<title>Arab Mechanical Engineer</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="AME">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -119,7 +118,7 @@
 														</a>
 													</li>
 													<li class="dropdown dropdown-mega">
-														<a class="dropdown-item dropdown-toggle" href="#">
+														<a class="dropdown-item dropdown-toggle" href="projects.html">
 															OUR PRODUCTS
 														</a>
 														<ul class="dropdown-menu">
@@ -161,7 +160,7 @@
 														</ul>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="#">
+														<a class="dropdown-item dropdown-toggle" href="projects.html">
 															OUR PROJECTS
 														</a>
 														<ul class="dropdown-menu">
@@ -243,242 +242,103 @@
 			</header>
 
 			<div role="main" class="main">
-				<section class="page-header page-header-classic page-header-md">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-								<h1 data-title-border>Projects</h1>
+
+				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+				<!-- <div id="googlemaps" class="google-map mt-0" style="height: 500px;"></div> -->
+				<div id="googlemaps" class="google-map mt-0" style="height: 500px;">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1727.2632431526386!2d31.43080724306072!3d30.02175002757354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583cd81c0e22cd%3A0x3b49a79bebb72ea8!2s314%20N%20Teseen%20St%2C%20New%20Cairo%201%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1639330784525!5m2!1sen!2seg" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy"></iframe>
+				</div>
+
+				<div class="container">
+
+					<div class="row py-4">
+						<div class="col-lg-6">
+
+							<div class="overflow-hidden mb-1">
+								<h2 class="font-weight-normal text-7 mt-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200"><strong class="font-weight-extra-bold">Contact</strong> Us</h2>
 							</div>
-							<div class="col-md-4 order-1 order-md-2 align-self-center">
-								<ul class="breadcrumb d-block text-md-right">
-									<li><a href="index.html" style="color: white;">Home</a></li>
-									<li class="active" style="color: rgb(207, 207, 207);">Projects</li>
+							<div class="overflow-hidden mb-4 pb-3">
+								<p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Feel free to ask for details, don't save any questions!</p>
+							</div>
+
+							<form class="contact-form" action="php/contact-form.php" method="POST">
+								<div class="contact-form-success alert alert-success d-none mt-4">
+									<strong>Success!</strong> Your message has been sent to us.
+								</div>
+							
+								<div class="contact-form-error alert alert-danger d-none mt-4">
+									<strong>Error!</strong> There was an error sending your message.
+									<span class="mail-error-message text-1 d-block"></span>
+								</div>
+								
+								<div class="form-row">
+									<div class="form-group col-lg-6">
+										<label class="required font-weight-bold text-dark text-2">Full Name</label>
+										<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" required>
+									</div>
+									<div class="form-group col-lg-6">
+										<label class="required font-weight-bold text-dark text-2">Email Address</label>
+										<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<label class="font-weight-bold text-dark text-2">Subject</label>
+										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<label class="required font-weight-bold text-dark text-2">Message</label>
+										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control" name="message" required></textarea>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<input type="submit" value="Send Message" class="btn btn-primary btn-modern" data-loading-text="Loading...">
+									</div>
+								</div>
+
+								<div class="form-row">
+									<div class="form-group col">
+										<div class="g-recaptcha" data-sitekey="your_site_key"></div>
+									</div>
+								</div>
+							</form>
+
+						</div>
+						<div class="col-lg-6">
+
+							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
+								<h4 class="mt-2 mb-1">Our <strong>Office</strong></h4>
+								<ul class="list list-icons list-icons-style-2 mt-2">
+									<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">Head office address:</strong> 38 Tayran St, Nasr city, Cairo, Egypt</li>
+									<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">Showroom Address:</strong> 3314 El-tesaeen St. inside Hala Mall, 2nd floor Shop No. 211 and 212, New Cairo</li>
+									<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> (+20) 24034787 / 22629283</li>
+									<li><i class="fas fa-mobile-alt top-6"></i> <strong class="text-dark">Phone:</strong> (+20) 01029986777</li>
+									<li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="mailto:info@arab-mech.com">info@arab-mech.com</a></li>
 								</ul>
 							</div>
-						</div>
-					</div>
-				</section>
 
-				<!-- <div class="container pb-1">
-
-					<div class="row pt-4">
-						<div class="col">
-							<div class="overflow-hidden mb-3">
-								<h2 class="font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
-									We Are Here To Help You
-								</h2>
+							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
+								<h4 class="pt-5">Business <strong>Hours</strong></h4>
+								<ul class="list list-icons list-dark mt-2">
+									<li><i class="far fa-clock top-6"></i> Sat – Thru 10:00 AM-06:00 PM (Showroom)</li>
+								</ul>
 							</div>
-						</div>
-					</div>
 
-					<div class="row">
-						<div class="col-lg-10">
-							<div class="overflow-hidden">
-								<p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non <span class="alternative-font">metus.</span> pulvinar. Sociis natoque penatibus et magnis dis parturient montes.
-								</p>
-							</div>
+							<h4 class="pt-5">Get in <strong>Touch</strong></h4>
+							<p class="lead mb-0 text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
 						</div>
-						<div class="col-lg-2 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="500">
-							<a href="#" class="btn btn-modern btn-dark mt-1">Get a Quote!</a>
-						</div>
+
 					</div>
 
-					<div class="row">
-						<div class="col py-3">
-							<hr class="solid mt-5 mb-2">
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="featured-boxes featured-boxes-style-2">
-							<div class="row">
-								<div class="col-md-6 col-lg-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="700">
-									<div class="featured-box featured-box-effect-4">
-										<div class="box-content">
-											<i class="icon-featured icon-screen-tablet icons text-color-primary bg-color-grey"></i>
-											<h4 class="font-weight-bold">Mobile Apps</h4>
-											<p class="px-3">Lorem ipsum dolor sit amt, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="900">
-									<div class="featured-box featured-box-effect-4">
-										<div class="box-content">
-											<i class="icon-featured icon-layers icons text-color-light bg-color-primary"></i>
-											<h4 class="font-weight-bold">Creative Websites</h4>
-											<p class="px-3">Lorem ipsum dolor sit amt, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1100">
-									<div class="featured-box featured-box-effect-4">
-										<div class="box-content">
-											<i class="icon-featured icon-magnifier icons text-color-primary bg-color-grey"></i>
-											<h4 class="font-weight-bold">SEO Optimization</h4>
-											<p class="px-3">Lorem ipsum dolor sit amt, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1500">
-									<div class="featured-box featured-box-effect-4">
-										<div class="box-content">
-											<i class="icon-featured icon-screen-desktop icons text-color-light bg-color-primary"></i>
-											<h4 class="font-weight-bold">Brand Solutions</h4>
-											<p class="px-3">Lorem ipsum dolor sit amt, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1300">
-									<div class="featured-box featured-box-effect-4">
-										<div class="box-content">
-											<i class="icon-featured icon-doc icons text-color-primary bg-color-grey"></i>
-											<h4 class="font-weight-bold">HTML5 / CSS3 / JS</h4>
-											<p class="px-3">Lorem ipsum dolor sit amt, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1100">
-									<div class="featured-box featured-box-effect-4">
-										<div class="box-content">
-											<i class="icon-featured icon-menu icons text-color-light bg-color-primary"></i>
-											<h4 class="font-weight-bold">Buttons</h4>
-											<p class="px-3">Lorem ipsum dolor sit amt, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-
-				<section class="section bg-color-grey section-height-3 border-0  mb-0">
-					<div class="container">
-
-						<div class="row">
-							<div class="col">
-								<a href="#" style="text-decoration: none;">
-									<div class="row align-items-center pt-4 appear-animation" data-appear-animation="fadeInLeftShorter">
-										<div class="col-md-4 mb-4 mb-md-0">
-											<img class="img-fluid scale-2 pr-5 pr-md-0 my-4 shadow" src="img/projects/project-3.jpg" alt="layout styles" />
-										</div>
-										<div class="col-md-8 pl-md-5">
-											<h2 class="font-weight-normal text-6 mb-3"><strong class="font-weight-extra-bold">SHOP </strong> FITTING </h2>
-											<p class="text-4">There are so many styles you can combine that is possible to create almost any kind of layout based on Porto Template, navigate in our preview and see the header variations, the colors, and the page content types that you will be able to use.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo. Vestibulum ante ipsum primis in faucibus orci.</p>
-										</div>
-									</div>
-								</a>
-
-								<hr class="solid my-5">
-								<a href="#" style="text-decoration: none;">
-									<div class="row align-items-center pt-5 pb-3 appear-animation" data-appear-animation="fadeInRightShorter">
-										<div class="col-md-8 pr-md-5 mb-5 mb-md-0">
-											<h2 class="font-weight-normal text-6 mb-3"><strong class="font-weight-extra-bold">RACKING</strong></h2>
-											<p class="text-4">With our exlusive Style Switcher you will be able to choose any color you want for your website, choose the layout style (wide / boxed), website type (one page / normal), then generate the css that will be compiled by a {less} proccessor.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo. Vestibulum ante ipsum primis in faucibus orci.</p>
-										</div>
-										<div class="col-md-4 px-5 px-md-3">
-											<img class="img-fluid scale-2 my-4 shadow" src="img/projects/project-placeholder.jpg" alt="style switcher" />
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</section>				
-
-				<!-- <div class="container-fluid">
-					<div class="row featured-boxes-full featured-boxes-full-scale">
-						<div class="col-lg-3 featured-box-full featured-box-full-primary">
-							<i class="far fa-life-ring"></i>
-							<h4>Customer Support</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
-						</div>
-						<div class="col-lg-3 featured-box-full featured-box-full-primary">
-							<i class="fas fa-film"></i>
-							<h4>Sliders</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
-						</div>
-						<div class="col-lg-3 featured-box-full featured-box-full-primary">
-							<i class="far fa-star"></i>
-							<h4>Winner</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. </p>
-						</div>
-						<div class="col-lg-3 featured-box-full featured-box-full-primary">
-							<i class="far fa-edit"></i>
-							<h4>Customizable</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet. Quisque rutrum pellentesque imperdiet.</p>
-						</div>
-					</div>
-				</div> -->
-
-				<!-- <div class="container pt-4">
-					<div class="row text-center pt-4 mt-5">
-						<div class="col">
-							<h2 class="word-rotator slide font-weight-bold text-8 mb-2">
-								<span>We're not the only ones </span>
-								<span class="word-rotator-words bg-primary">
-									<b class="is-visible">excited</b>
-									<b>happy</b>
-								</span>
-								<span> about Porto Template...</span>
-							</h2>
-							<h4 class="text-primary lead tall text-4">30,000 CUSTOMERS IN 100 COUNTRIES USE PORTO TEMPLATE. MEET OUR CUSTOMERS.</h4>
-						</div>
-					</div>
-
-					<div class="row text-center mt-5 pb-5 mb-5">
-						<div class="owl-carousel owl-theme carousel-center-active-item mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 7}, '1200': {'items': 7}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': false}">
-							<div>
-								<img class="img-fluid" src="img/logos/logo-1.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-2.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-3.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-4.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-5.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-6.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-4.png" alt="">
-							</div>
-							<div>
-								<img class="img-fluid" src="img/logos/logo-2.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div> -->
-
-				<!-- <section class="call-to-action call-to-action-strong-grey content-align-center call-to-action-in-footer">
-					<div class="container py-5">
-						<div class="row py-3">
-							<div class="col-md-9 col-lg-9">
-								<div class="call-to-action-content">
-									<h2 class="font-weight-normal text-7 mb-0">Porto is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h2>
-									<p class="mb-0">The best HTML template for your new website.</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-lg-3">
-								<div class="call-to-action-btn">
-									<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3 mt-5">Get Started Now</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -90px; left: 70%;"></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section> -->
+				</div>
 
 			</div>
 
-			<footer id="footer">
+				<footer id="footer">
 				<div class="container">
 					<div class="footer-ribbon">
 						<span>Get in Touch</span>
@@ -549,7 +409,7 @@
 								<nav id="sub-menu">
 									<ul>
 										<li><i class="fas fa-angle-right"></i><a href="about-us.html" class="ml-1 text-decoration-none"> About Us</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="#" class="ml-1 text-decoration-none"> Contact Us</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -580,11 +440,71 @@
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
 
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
 		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+		<!-- <script>
+
+			/*
+			Map Settings
+
+				Find the Latitude and Longitude of your address:
+					- https://www.latlong.net/
+					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+
+			*/
+
+			// Map Markers
+			var mapMarkers = [{
+				address: "38 Tayran St, Nasr city, Cairo, Egypt",
+				html: "<strong>Showroom Location</strong>",
+				icon: {
+					image: "img/pin.png",
+					iconsize: [26, 46],
+					iconanchor: [12, 46]
+				},
+				popup: true
+			}];
+
+			// Map Initial Location
+			var initLatitude = 30.061640;
+			var initLongitude = -31.326180;
+
+			// Map Extended Settings
+			var mapSettings = {
+				controls: {
+					draggable: (($.browser.mobile) ? false : true),
+					panControl: true,
+					zoomControl: true,
+					mapTypeControl: true,
+					scaleControl: true,
+					streetViewControl: true,
+					overviewMapControl: true
+				},
+				scrollwheel: false,
+				markers: mapMarkers,
+				latitude: initLatitude,
+				longitude: initLongitude,
+				zoom: 11
+			};
+
+			var map = $('#googlemaps').gMap(mapSettings);
+
+			// Map text-center At
+			var mapCenterAt = function(options, e) {
+				e.preventDefault();
+				$('#googlemaps').gMap("centerAt", options);
+			}
+
+		</script> -->
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
