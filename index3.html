@@ -6,10 +6,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Arab Mechanical Engineer</title>	
+		<title>Porto - Responsive HTML5 Template</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="AME">
+		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -19,7 +20,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
 		<!-- Web Fonts  -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400" rel="stylesheet" type="text/css">
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -40,13 +41,12 @@
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
-		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
 		
 		<!-- Demo CSS -->
 
 
 		<!-- Skin CSS -->
-		<link rel="stylesheet" href="css/skins/default.css"> 
+		<link rel="stylesheet" href="css/skins/skin-corporate-10.css"> 
 
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
@@ -54,82 +54,34 @@
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
-		<style>
-			.circular-bar strong {
-				display: block;
-				font-weight: 600;
-				font-size: 29px;
-				line-height: 30px;
-				position: absolute;
-				top: 35%;
-				width: 80%;
-				left: 10%;
-				text-align: center;
-			}
-		</style>
 	</head>
-	<body>
+	<body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+		<div class="loading-overlay">
+			<div class="bounce-loader">
+				<div class="bounce1"></div>
+				<div class="bounce2"></div>
+				<div class="bounce3"></div>
+			</div>
+		</div>
 
 		<div class="body">
-			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
-				<div class="header-body border-top-0">
-					<div class="header-top">
-						<div class="container">
-							<div class="header-row py-2">
-								<div class="header-column justify-content-start">
-									<div class="header-row">
-										<nav class="header-nav-top">
-											<ul class="nav nav-pills">
-												<li class="nav-item nav-item-anim-icon d-none d-md-block">
-													<a class="nav-link pl-0" href="about-us.html"><i class="fas fa-angle-right"></i> About Us</a>
-												</li>
-												<li class="nav-item nav-item-anim-icon d-none d-md-block">
-													<a class="nav-link" href="contact-us.html"><i class="fas fa-angle-right"></i> Contact Us</a>
-												</li>
-												<li class="nav-item dropdown nav-item-left-border d-none d-sm-block nav-item-left-border-remove nav-item-left-border-md-show">
-													<a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-														<img src="img/blank.gif" class="flag flag-us" alt="English" /> English
-														<i class="fas fa-angle-down"></i>
-													</a>
-													<div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-														<a class="dropdown-item" href="#"><img src="img/blank.gif" class="flag flag-us" alt="English" /> English</a>
-														<a class="dropdown-item" href="#"><img src="img/blank.gif" class="flag flag-eg" alt="Arabic" /> Arabic</a>
-													</div>
-												</li>
-												<li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
-													<span class="ws-nowrap"><i class="fas fa-phone"></i> (002) 01029986777</span>
-												</li>
-											</ul>
-										</nav>
-									</div>
-								</div>
-								<div class="header-column justify-content-end">
-									<div class="header-row">
-										<ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean">
-											<li class="social-icons-facebook"><a href="https://www.facebook.com/ArabMechanicalEngineers/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-											<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCtH3Ok1WEF8PvKPOIs0p7Qg" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
-											<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="header-container container">
+			<header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0 bg-dark box-shadow-none">
+					<div class="header-container container container-xl">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="#">
-												
+										<a href="index.html">
+											<img alt="AME" width="250" height="auto" data-sticky-width="200" data-sticky-height="auto" src="img/ame-logo-light.png">
 										</a>
 									</div>
 								</div>
 							</div>
 							<div class="header-column justify-content-end">
 								<div class="header-row">
-									<div class="header-nav header-nav-line header-nav-top-line header-nav-top-line-with-border order-2 order-lg-1">
-										<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
+									<div class="header-nav header-nav-links header-nav-dropdowns-light header-nav-light-text order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-mobile-light header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
@@ -237,10 +189,10 @@
 											<i class="fas fa-bars"></i>
 										</button>
 									</div>
-									<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
+									<div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
 										<div class="header-nav-feature header-nav-features-search d-inline-flex">
 											<a href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i class="fas fa-search header-nav-top-icon"></i></a>
-											<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
+											<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed" id="headerTopSearchDropdown">
 												<form role="search" action="page-search-results.html" method="get">
 													<div class="simple-search input-group">
 														<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
@@ -253,6 +205,38 @@
 												</form>
 											</div>
 										</div>
+										<!-- <div class="header-nav-feature header-nav-features-cart d-inline-flex ml-2">
+											<a href="#" class="header-nav-features-toggle">
+												<img src="img/icons/icon-cart-light.svg" width="14" alt="" class="header-nav-top-icon-img">
+												<span class="cart-info">
+													<span class="cart-qty">1</span>
+												</span>
+											</a>
+											<div class="header-nav-features-dropdown" id="headerTopCartDropdown">
+												<ol class="mini-products-list">
+													<li class="item">
+														<a href="#" title="Camera X1000" class="product-image"><img src="img/products/product-1.jpg" alt="Camera X1000"></a>
+														<div class="product-details">
+															<p class="product-name">
+																<a href="#">Camera X1000 </a>
+															</p>
+															<p class="qty-price">
+																 1X <span class="price">$890</span>
+															</p>
+															<a href="#" title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
+														</div>
+													</li>
+												</ol>
+												<div class="totals">
+													<span class="label">Total:</span>
+													<span class="price-total"><span class="price">$890</span></span>
+												</div>
+												<div class="actions">
+													<a class="btn btn-dark" href="#">View Cart</a>
+													<a class="btn btn-primary" href="#">Checkout</a>
+												</div>
+											</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
@@ -263,12 +247,11 @@
 
 			<div role="main" class="main">
 
-				<!-- Slider Header Section -->
-				<div class="slider-container rev_slider_wrapper" style="height: 670px;">
-					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
+				<div class="slider-container rev_slider_wrapper curved-border" style="height: 100vh;">
+					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true, 'style': 'arrows-style-1 arrows-primary' }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
 						<ul>
-							<li class="slide-overlay slide-overlay-primary" data-transition="fade">
-								<img src="img/slides/slide-bg-6.jpg"  
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
+								<img src="img/slides/slide-1.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
@@ -326,58 +309,7 @@
 									data-lineheight="['26','26','26','45']">Arab Mechanical Engineers</div>
 								
 							</li>
-							<li data-transition="fade">
-								<img src="img/slides/slide-1.jpg"  
-									alt=""
-									data-bgposition="center center" 
-									data-bgfit="cover" 
-									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
-				
-								<!-- <div class="tp-caption"
-									data-x="center" data-hoffset="['-150','-150','-150','-240']"
-									data-y="center" data-voffset="['-50','-50','-50','-75']"
-									data-start="1000"
-									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-				
-								<div class="tp-caption text-color-light font-weight-normal"
-									data-x="center"
-									data-y="center" data-voffset="['-50','-50','-50','-75']"
-									data-start="700"
-									data-fontsize="['22','22','22','40']"
-									data-lineheight="['25','25','25','45']"
-									data-transform_in="y:[-50%];opacity:0;s:500;">DO YOU NEED A NEW</div>
-				
-								<div class="tp-caption d-none d-md-block"
-									data-frames='[{"delay":2400,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="center" data-hoffset="['80','80','80','135']"
-									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="img/slides/slide-blue-line.png" alt=""></div>
-				
-								<div class="tp-caption"
-									data-x="center" data-hoffset="['150','150','150','240']"
-									data-y="center" data-voffset="['-50','-50','-50','-75']"
-									data-start="1000"
-									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
-				
-								<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
-									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="center"
-									data-y="center"
-									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">WEB DESIGN?</div>
-				
-								<div class="tp-caption font-weight-light"
-									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-									data-x="center"
-									data-y="center" data-voffset="['40','40','40','80']"
-									data-fontsize="['18','18','18','50']"
-									data-lineheight="['20','20','20','55']"
-									style="color: #b5b5b5;">Check out our options and features</div> -->
-								
-							</li>
-							<li data-transition="fade">
+                            <li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-2.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -385,7 +317,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-3.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -393,7 +325,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-4.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -401,7 +333,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-5.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -409,7 +341,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-6.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -417,7 +349,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-7.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -425,7 +357,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-8.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -433,7 +365,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-9.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -441,7 +373,7 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 							</li>
-							<li data-transition="fade">
+							<li class="slide-overlay slide-overlay-level-8" data-transition="fade">
 								<img src="img/slides/slide-10.jpg"  
 									alt=""
 									data-bgposition="center center" 
@@ -453,31 +385,8 @@
 					</div>
 				</div>
 
-				<!-- Sub Header Section -->
-				<div class="home-intro bg-primary" id="home-intro">
-					<div class="container">
-				
-						<div class="row align-items-center">
-							<div class="col-lg-8">
-								<p>
-									When you need smart solutions, we have it covered 
-									<!-- <span class="highlighted-word">Technology</span> -->
-									<!-- <span>Check out our options and features included.</span> -->
-								</p>
-							</div>
-							<div class="col-lg-4">
-								<div class="get-started text-left text-lg-right">
-									<a href="contact-us.html" class="btn custom-primary btn-lg text-3 font-weight-semibold px-4 py-3">Contact Us</a>
-									<!-- <div class="learn-more">or <a href="index.html">learn more.</a></div> -->
-								</div>
-							</div>
-						</div>
-				
-					</div>
-				</div>
-
-				<!-- intro -->
-				<div class="container">
+                <!-- intro -->
+				<div class="container pt-5">
 					<div class="row pb-5">
 						
 						<div class="col-lg-4" data-appear-animation="fadeInLeft">
@@ -950,80 +859,53 @@
 
 			</div>
 
-			<footer id="footer">
-				<div class="container">
-					<div class="footer-ribbon">
-						<span>Get in Touch</span>
-					</div>
-					<div class="row py-5 my-4">
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">NEWSLETTER</h5>
-							<a href="https://arab-mech.com/wp-content/uploads/2020/06/newsletter-25-11.pdf" target="_blank" class="btn btn-primary mb-5">Download</a>
-							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong> You've been added to our email list.
-							</div>
-							<div class="alert alert-danger d-none" id="newsletterError"></div>
-							<!-- <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">
-								<div class="input-group input-group-rounded">
-									<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-									<span class="input-group-append">
-										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>
-									</span>
+			<footer id="footer" class="bg-color-light border-0 pt-5 mt-0">
+				<!-- <div class="container pb-5 mb-5">
+					<div class="row justify-content-center">
+						<div class="col-md-9 col-lg-6">
+							<h2 class="font-weight-normal text-color-dark text-center text-8 mb-4"><strong class="font-weight-extra-bold">Contact</strong> Us</h2>
+							<p class="text-4 opacity-8 text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendum</p>
+							<form class="contact-form form-style-3" action="php/contact-form.php" method="POST">
+								<div class="contact-form-success alert alert-success d-none">
+									Message has been sent to us.
 								</div>
-							</form> -->
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">Useful Links</h5>
-							<ul class="list list-unstyled">
-								<li class="mb-1">
-									<a href="#">Career</a>
-								</li>
-								<li class="mb-1">
-									<a href="#">Catalogues</a>
-								</li>
-								<li class="mb-1">
-									<a href="#">International Partners</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-							<div class="contact-details">
-								<h5 class="text-3 mb-3">CONTACT US</h5>
-								<ul class="list list-icons list-icons-lg">
-									<li class="mb-1"><i class="fas fa-map-marker-alt custom-text-color-primary"></i><p class="m-0">38 Tayran St, Nasr city, Cairo</p></li>
-									<li class="mb-1"><i class="fas fa-phone-alt custom-text-color-primary"></i><p class="m-0"><a href="tel:00201029986777">(+20) 01029986777</a></p></li>
-									<li class="mb-1"><i class="far fa-envelope custom-text-color-primary"></i><p class="m-0"><a href="info@arab-mech.com">info@arab-mech.com</a></p></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-2">
-							<h5 class="text-3 mb-3">FOLLOW US</h5>
-							<ul class="social-icons">
-								<li class="social-icons-facebook"><a href="https://www.facebook.com/ArabMechanicalEngineers/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCtH3Ok1WEF8PvKPOIs0p7Qg" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
-								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
+
+								<div class="contact-form-error alert alert-danger d-none">
+									Error sending your message.
+									<span class="mail-error-message text-1 d-block"></span>
+								</div>
+								
+								<input type="hidden" value="Contact Form" name="subject" id="subject">
+								<div class="form-row">
+									<div class="form-group col-md-6 pr-md-2">
+										<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" placeholder="Your Name..." name="name" id="name" required>
+									</div>
+									<div class="form-group col-md-6 pl-md-2">
+										<input type="text" value="" data-msg-required="Please enter your phone." maxlength="100" class="form-control" placeholder="Your Phone..." name="phone" id="phone" required>
+									</div>
+								</div>
+								<div class="form-group">
+									<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" placeholder="Your Email Address..." name="email" id="email" required>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="4" class="form-control" placeholder="Your Message..." name="message" id="message" required></textarea>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col text-center">
+										<input type="submit" value="SUBMIT" class="btn btn-primary font-weight-semibold text-3 px-5 btn-py-2" data-loading-text="Loading...">
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
-				</div>
-				<div class="footer-copyright">
+				</div> -->
+				<div class="footer-copyright curved-border curved-border-top d-flex align-items-center">
 					<div class="container py-2">
 						<div class="row py-4">
-							<!-- <div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-								<a href="index.html" class="logo pr-0 pr-lg-3">
-									<img alt="AME" src="img/ame-logo.png" class="opacity-5" height="33">
-								</a>
-							</div> -->
-							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-								<p>© Copyright 2021. All Rights Reserved.</p>
-							</div>
-							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
-								<nav id="sub-menu">
-									<ul>
-										<li><i class="fas fa-angle-right"></i><a href="about-us.html" class="ml-1 text-decoration-none"> About Us</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
-									</ul>
-								</nav>
+							<div class="col text-center">
+								<p class="text-3">2021 © <strong class="font-weight-normal text-color-light opacity-7">VERO</strong> - Copyright. All Rights Reserved.</p>
 							</div>
 						</div>
 					</div>
@@ -1047,16 +929,17 @@
 		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
 		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 		<script src="vendor/vide/jquery.vide.min.js"></script>
-		<script src="vendor/vivus/vivus.min.js"></script>	
+		<script src="vendor/vivus/vivus.min.js"></script>
 		
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
-
+		
 		<!-- Current Page Vendor and Views -->
 		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
-		<script src="js/views/view.home.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
 
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
